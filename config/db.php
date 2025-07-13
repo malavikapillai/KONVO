@@ -4,6 +4,7 @@
 $host = getenv("DB_HOST");
 $dbname = getenv("DB_NAME");
 $username = getenv("DB_USER");
+$port = getenv("DB_PORT"); // NEW
 $password = getenv("DB_PASSWORD");
 
 echo "Connecting to host: " . $host;
