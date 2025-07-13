@@ -16,7 +16,8 @@ require_once "../models/Group.php";
 require_once "../models/File.php";
 
 // Debug info - uncomment this to see what's coming in
-file_put_contents('debug_post.txt', print_r($_POST, true));
+error_log("DEBUG POST: " . print_r($_POST, true));
+
 
 // Check if user is logged in
 if (!isset($_SESSION['user_id'])) {
