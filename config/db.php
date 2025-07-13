@@ -7,6 +7,11 @@ $username = getenv("DB_USER");
 $port = getenv("DB_PORT"); // NEW
 $password = getenv("DB_PASSWORD");
 
+// $host = "localhost";
+// $dbname = "study_groups";
+// $username = "root";
+// $password = "";
+
 
 
 try {

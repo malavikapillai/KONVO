@@ -9,7 +9,7 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-require_once "../models/Discussion.PHP";
+require_once "../models/Discussion.php";
 require_once "../models/Reply.php";
 require_once "../models/Likes.php";
 require_once "../models/Group.php";
